@@ -1,0 +1,39 @@
+* {
+  background-color: rgb(33, 36, 40);
+  color: white;
+  margin: 0;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+div, p, h1, h2, h3, ul, li, img, p, span {  
+  background-color: transparent;
+}
+
+body {
+  padding: 0;
+}
+
+h1 {
+  font-size: 44px;
+}
+
+h1, p {
+  font-family: League Spartan;
+}
+
+p {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 40px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-family: Cardo;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+

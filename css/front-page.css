@@ -1,0 +1,115 @@
+.top-header-section {
+  display: flex;
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 120px;
+  padding-right: 120px;
+}
+
+.logo-image {
+  width: 100px;
+}
+
+.title-text {
+  font-family: League Spartan;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.icons {
+  width: 50px;
+  margin: 4px;
+}
+
+.introduction-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 750px;
+}
+
+.name-container {
+  text-align: left;
+}
+
+.intro-first {
+  font-size: 80px;
+  font-family: Cardo;
+  margin-bottom: 7px;
+}
+
+.name-highlight {
+  color: rgb(216, 97, 60);
+  font-weight: 600;
+}
+
+.intro-second {
+  font-size: 60px;
+  margin-bottom: 30px;
+  font-family: League Spartan;
+}
+
+.intro-title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.divider-name {
+  width: 300px;
+}
+
+.intro-detail {
+  font-size: 25px;
+  font-family: League Spartan;
+  width: 800px;
+  text-align: left;
+}
+
+.detail-img {
+  width: 500px;
+}
+.cv-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+}
+
+.cv-button-container button {
+  border-style: solid;
+  border-width: 3px;
+  border-color: white;
+  border-radius: 10px;
+  padding: 20px 40px;
+  background-color: rgb(33, 36, 40);
+  font-family: League Spartan;
+  font-size: 20px;
+  /* font-style: italic; */
+  font-weight: 600;
+  transition: transform 0.65s, box-shadow 0.65s;
+}
+
+.cv-button-container button:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 10px 20px rgba(252, 252, 252, 0.219);
+  cursor: pointer;
+}
+
+.about-me-title {  
+  font-size: 80px;
+  font-family: Cardo;
+  color: rgb(216, 97, 60);
+  font-weight: 600;
+}
+
+.intro-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 750px;
+  justify-content: center;
+}

@@ -1,0 +1,39 @@
+.division-line {
+  border-style: solid;
+  border-width: 1px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email-border {
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.social-text {
+  text-align: center;
+}
+
+.contact-icon {
+  width: 30px;
+  margin: 4px;
+}

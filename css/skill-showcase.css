@@ -1,0 +1,65 @@
+.divider-skill {
+  width: 70px;
+}
+
+.title-skill {
+  margin-bottom: 20px;
+  margin-top: 80px;
+  margin: 80px 0 20px 0;
+  text-align: center;
+  font-family: League Spartan;
+}
+
+.list-skill-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.CSS-list li {
+  font-family: League Spartan;
+  font-size: 20px;
+}
+
+.showcase-img-button {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.showcase-img-social {
+  height: 200px;
+  border-radius: 15px;
+}
+
+.practices-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.practice-description-container {
+  width: 450px;
+}
+
+.divider-projects {
+  width: 150px;
+}
+
+.title-practice {
+  font-size: 24px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.practice-img-facebook {
+  width: 600px;
+}
+
+.description-practice {
+  font-size: 19px;
+}

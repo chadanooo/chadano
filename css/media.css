@@ -1,0 +1,101 @@
+/* Phones Size */
+@media (max-width: 1000px) {
+  .title-text {
+    display: none;
+  }
+  .top-header-section, .skill-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 0;
+  }
+  
+  .title-practice, .description-practice {
+    margin: 0 10px 0 10px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .title-skill {
+  margin: 0 0 15px 0;
+  text-align: center;
+  }
+  
+  .top-header-section, .skill-text {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .skills-container {
+    flex-direction: column;
+    margin: 0 20px 30px;
+  }
+
+  .intro-first {
+    font-size: 46px;
+  }
+
+  .intro-second {
+    margin-bottom: 20px;
+  }
+
+  .intro-detail {
+    width: 90%;
+  }
+
+  .introduction-section {
+    margin: 0 20px 30px 20px;
+  }
+
+  .skills-container div {    
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .all-phrase {
+    width: 80%;
+  }
+
+  .list-skill-container {
+    flex-direction: column;
+  }
+
+  .divider-skill {
+    display: none;
+  }
+
+  .CSS-list {
+    margin-bottom: 10px;
+  }
+
+  .showcase-img-button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 270px;
+  }
+
+  .showcase-img-social {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .practices-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .practices-container img {
+    width: 270px;
+  }
+
+  .email-container {
+    height: 200px;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(110, 108, 108);
+    border-radius: 10px;
+  }
+}
